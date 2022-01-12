@@ -1,0 +1,47 @@
+{
+  
+   
+    "editor.minimap.enabled": true,
+    "editor.find.autoFindInSelection": "always",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "editor.formatOnSave": true,
+    "prettier.printWidth": 110,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 110,
+    "css.styleSheets": [
+
+    ],
+    "editor.fontSize": 16,
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {"*html": "html"},
+    "emmet.showSuggestionsAsSnippets": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tailwindCSS.emmetCompletions": true,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+    "prettier.endOfLine": "auto",
+    "eslint.alwaysShowStatus": true,
+     // Controls the font family.
+     "editor.fontFamily": "JetBrains Mono , Fira Code  ",
+     // Enables font ligatures
+    "editor.fontLigatures": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.openFoldersInNewWindow": "on",
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
+    "prettier.jsxSingleQuote": true,
+    "files.autoSave": "onFocusChange",
+    "prettier.singleQuote": true,
+}
