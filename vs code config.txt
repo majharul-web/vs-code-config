@@ -1,47 +1,130 @@
 {
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 2000,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.minimap.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "prettier.printWidth": 110,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 110,
+  "css.styleSheets": [],
+  "emmet.triggerExpansionOnTab": true,
+  "files.associations": {
+    "*html": "html"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.organizeImports": true
+  // },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+  "prettier.endOfLine": "auto",
+  "eslint.alwaysShowStatus": true,
+  "window.openFoldersInNewWindow": "on",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.jsxSingleQuote": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontLigatures": true,
+  // "editor.fontFamily": "victor mono",
+  "editor.fontFamily": "Fira Code, 'JetBrains Mono', victor mono",
+  "tabnine.experimentalAutoImports": true,
+  // for react-native error
+  // "editor.inlineSuggest.enabled": true,
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // for sass
+  "liveSassCompile.settings.formats": [
+    {
+      // "format": "compressed",
+      // "extensionName": ".min.css",
+      "extensionName": ".css",
+      "savePath": "/css"
+      // "savePath": "public/assets/css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "editor.fontWeight": "normal",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.colorTheme": "Learn with Sumit - Professional",
+  "cSpell.languageSettings": [
   
-   
-    "editor.minimap.enabled": true,
-    "editor.find.autoFindInSelection": "always",
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
+  ],
+  // terminal customization
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, 'JetBrains Mono', victor mono",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1c1e2e",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "editor.fontSize": 16,
+  "liveSassCompile.settings.autoprefix": [],
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
-    "editor.formatOnSave": true,
-    "prettier.printWidth": 110,
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 110,
-    "css.styleSheets": [
-
-    ],
-    "editor.fontSize": 16,
-    "emmet.triggerExpansionOnTab": true,
-    "files.associations": {"*html": "html"},
-    "emmet.showSuggestionsAsSnippets": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[javascript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "tailwindCSS.emmetCompletions": true,
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
-    "prettier.endOfLine": "auto",
-    "eslint.alwaysShowStatus": true,
-     // Controls the font family.
-     "editor.fontFamily": "JetBrains Mono , Fira Code  ",
-     // Enables font ligatures
-    "editor.fontLigatures": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "window.openFoldersInNewWindow": "on",
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
-    "workbench.colorTheme": "Learn with Sumit - Peace of the eye - Dracula version",
-    "prettier.jsxSingleQuote": true,
-    "files.autoSave": "onFocusChange",
-    "prettier.singleQuote": true,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "css.lint.unknownAtRules": "error",
+  "workbench.settings.applyToAllProfiles": [
+  
+  ]
 }
